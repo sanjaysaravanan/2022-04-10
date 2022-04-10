@@ -1,0 +1,51 @@
+
+
+Recap:
+  Postion, Parent inherit, Gradient
+
+Topics:
+
+  fonts, icons
+    using different types of fonts, icons in webpage
+  
+  mesurements
+
+    different mesurement units ( absolute & relative ) in css
+
+    Absolute units: px - pixel, pt - point, pc - picas,
+    1px = 1/96th of an inch
+
+    1pt = point 1/72th of an inch
+
+    1pc = picas 12 * 1pt or 1/6th of inch
+
+    Relative Units: %, vh, vw, 
+      1% -> 1 percent of the parent
+      vw -> viewport width
+        1vw -> 1 % viewport width
+      vh -> viewport height
+        1vh -> 1 % viewport height
+
+      emphemeral units
+      em, rem ---> root em
+        1rem = fontsize of the root element ( Initial Containing Block )
+        1em = fontsize of the parent element
+
+  Overflow - hidden, scroll, auto, visible
+
+    Handle over the overflowing contents
+
+    visible ---> default value, does not modify the overflow and the overflow is visible 
+
+    hidden ---> hides the overflowing content on both vertically and horizontally
+
+    scroll ---> Gives scroll to see the overflowing by scrolling
+
+    auto ---> Gives scroll only when there is overflow on particular axis
+
+
+  display: none & visibility: hidden
+
+    display: none   --------> removes the space as well the contents of the elements
+                              i.e: remove the DOM element
+    visibility: hidden  -------> Hides the contents of the element but the space of the element remains unoccupied  
